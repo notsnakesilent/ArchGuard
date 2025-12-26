@@ -34,15 +34,17 @@ The solution consists of a standalone Kernel Driver (`.sys`) that performs three
 
 
 <p align="center">
-  <img width="717" alt="Baseline Integrity" src="https://github.com/user-attachments/assets/9ad3f6bd-00aa-4dc0-ad8b-7cceaed3421c" />
+  <img width="717" alt="Baseline Integrity" src="https://github.com/user-attachments/assets/82fe9eb6-43bd-4a73-8ad5-b7319a69fa60" />
   <br>
+
   <em><strong>Figure 1: Baseline Integrity Verification.</strong> The auditor confirms that MSR_LSTAR points within valid ntoskrnl limits and critical security features (SMEP) are active.</em>
 </p>
 
 <br>
 
 <p align="center">
-  <img width="717" alt="Attack Detection" src="https://github.com/user-attachments/assets/f020f8ef-4f23-4aa1-be56-d801c98f6f4a" />
+  <img width="697" alt="Attack Detection" src="https://github.com/user-attachments/assets/46385715-6b95-4a33-b61c-685f770fd188" />
+
   <br>
   <em><strong>Figure 2: Detection of Simulated Compromise. </strong>The auditor successfully flags a hooked Syscall entry pointing to unknown memory and detects disabled hardware protections.</em>
 </p>
